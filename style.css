@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header{
+    background-color:#121111;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 10px ;
+}
+
+.navbar ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 5px;
+   background-color: #393434;
+}
+
+/* HOME*/
+.home{
+    padding: 50px;
+    text-align: center;
+    border: 1px solid#fffdfd;
+}
+
+.home h2{
+    margin-bottom: 10px;
+}
+
+/* ABOUT */
+.about{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 50px ;
+}
+.about h2{
+    margin-bottom: 10px;
+}
+
+/* SERVICE */
+
+.service {
+    margin-bottom: 30px ;
+}
+ .service h2{
+    margin: 40px;
+    text-align: center;
+ }
+
+ .box-1{
+    border-radius: 8px;
+    padding: 30px;
+    border: 1px solid grey;
+    margin: 0px 1093px 0px 120px;
+}
+
+.box-1 p{
+    margin-top: 10px;
+}
+
+ .box-2{
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: -109px 638px 0px 588px;
+    padding: 30px;
+}
+ 
+
+ .box-2 p{
+    margin-top: 10px;
+}
+
+ .box-3{
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: -109px 191px 0px 1040px;
+    padding: 30px;
+ }
+
+ .box-3 p{
+    margin-top: 10px;
+}
+
+strong{
+    font-size: 20px;
+}
+/* FOOTER */
+footer{
+    background-color:#121111 ;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
